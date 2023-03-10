@@ -14,6 +14,7 @@
     /* Variáveis para cores */
     --dark: #242424;
     --blue: #5D2DE0;
+    --purple: rgb(124, 67, 190);
 }
 
 .border {
@@ -27,5 +28,34 @@ body {
 
 .bg-dark {
     /* A chamada da variável de cor deve ser feita através do var() */
-    background-color: var(dark);
+    background-color: #242424;
+}
+
+.menu li {
+    display: inline; /*Por padrão vem com block*/
+    padding: 10px
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;  /*Por padrão vem com sublinhado*/
+    /*padding: 2px 4px; O primeiro valor é aplicado em cima em baixo e o segundo dos lados*/
+    padding: 10px;
+}
+
+.menu a:hover {
+    background-color: var(--purple);
+    border-radius: 5px;
+} 
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    /* flex-direction: row; -> Valor padrão do display flex.*/
+    /* Por padrão os elementos são organizados no topo da página */
+    justify-content: space-around;
 }
