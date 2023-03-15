@@ -17,6 +17,10 @@
     --purple: rgb(124, 67, 190);
 }
 
+.flex {
+    display: flex; /*CSS não irá repetir */
+}
+
 .border {
     border: 2px solid white;
 }
@@ -78,4 +82,8 @@ nav {
 
 .grow-2 {
     flex-grow: 2;
+}
+
+.w-50 {
+    width: 50%;
 }
