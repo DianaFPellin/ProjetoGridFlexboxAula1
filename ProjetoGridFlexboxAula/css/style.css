@@ -89,9 +89,41 @@ nav {
 }
 
 .banner {
-    background: url("../img/hero-bg.png") center / contain no-repeat fixed;
+    background: url("../img/hero-bg.png") center / contain no-repeat fixed; /* -> Tem uma ordem específica */
 
     /* background-image: url("../img/hero-bg.png");
     background-repeat: no-repeat;
     background-attachment: fixed */
+}
+
+.banner-title-h1 {
+    font-weight: bold;
+    font-size: 4rem; /*O rem pega como valor padrão a fonte do dispositivo, exp: no chrome o valor padrão é 16px*/
+}
+
+.banner p {
+    padding: .8rem;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.btn {
+    text-transform: uppercase;
+    margin: 0.375rem; /* == 6px*/
+    font-size: 0.81rem; /* == 12px*/
+    padding: 0.75rem 1.5rem; /* 12px 24px*/
+    border-radius: 0.375rem;
+    text-decoration: none;
+}
+
+.btn-blue {
+    background-color: var(--blue);
+    color: #fff;
+}
+
+.btn-aqua {
+    background-color: aquamarine;
+    color: #000;
 }
