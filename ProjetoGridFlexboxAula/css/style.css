@@ -87,3 +87,11 @@ nav {
 .w-50 {
     width: 50%;
 }
+
+.banner {
+    background: url("../img/hero-bg.png") center / contain no-repeat fixed;
+
+    /* background-image: url("../img/hero-bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed */
+}
