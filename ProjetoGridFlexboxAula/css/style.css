@@ -55,7 +55,9 @@ body {
 
 nav {
     display: flex;
+    align-items: center; /* Alinha verticalmente os Flex Items */
+    /* justify-content: center;  Alinha horizontalmente os Flex Items */
     /* flex-direction: row; -> Valor padrão do display flex.*/
     /* Por padrão os elementos são organizados no topo da página */
-    justify-content: space-around;
+    /* justify-content: space-around; -> Cria um espaçamento igual entre todos os itens */
 }
